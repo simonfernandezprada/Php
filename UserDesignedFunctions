@@ -1,0 +1,20 @@
+DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>What wea</title>
+  </head>
+  <body>
+    <?php
+    function newCalc($x) {
+      $newnr = $x * 0.75;
+      echo "Este es tu 75%: ".$newnr;
+    }
+    $x = 100;
+    newCalc($x);
+    echo "<br>";
+    $x1 = 666;
+    newCalc($x1);
+   ?>
+  </body>
+</html>
